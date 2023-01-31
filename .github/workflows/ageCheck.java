@@ -1,5 +1,6 @@
 public class Main {
  //added from Gitpod 22
+ //added from Gitpod KhanAston
   // Create a checkAge() method with an integer parameter called age
   static void checkAge(int age) {
 

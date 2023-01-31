@@ -1,0 +1,5 @@
+calc a b opr | opr == "add" = putStrLn("a + b = " ++ show(a+b)) 
+             | opr == "subtract" = putStrLn("a - b = " ++ show(a-b))
+             | opr == "multiply" = putStrLn("a * b = " ++ show(a*b))
+             | opr == "divide" = putStrLn("a / b = " ++ show(a/b))
+             | otherwise  = putStrLn("Sorry, I don't recognize this operation!")
